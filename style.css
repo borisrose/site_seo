@@ -100,7 +100,7 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    color: rgb(255, 255, 255);
 }
 
 .d-bloc button:hover {
@@ -133,7 +133,8 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    /*color: rgba(255, 255, 255, .6);*/
+    color: black;
 }
 
 .d-bloc .a-btn:hover,
@@ -151,6 +152,7 @@ a:hover {
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
     color: rgba(255, 255, 255, 1);
+    
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -650,8 +652,8 @@ label,
 .btn,
 a {
     font-family: "helvetica";
-    font-weight: 400;
-    color: #575757!important;
+    
+    color: #000000!important;
 }
 
 .container {
@@ -676,8 +678,28 @@ a {
     margin: auto auto auto auto;
 }
 
-p {
+/*ajouté*/
+
+.highlight{
+
+    font-size: 20px;
+}
+
+.col-sm-6 img {
+    width: 100%;
+}
+
+
+
+/*fin de ce qui est ajouté*/
+
+
+
+
+p, a {
     font-size: 16px; /*modification*/
+    
+
 }
 
 .tight-width-whitespace {
@@ -692,7 +714,7 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
+    /*color: #FFFFFF!important;*/
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -702,6 +724,10 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
 }
 
 h2 {
@@ -723,7 +749,7 @@ h3 {
 }
 
 h1 {
-    color: #333333!important;
+    color: #000000!important;
 }
 
 h4 {
@@ -753,7 +779,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(10, 10, 10 , 0.7);
     padding: 40px 40px 40px 40px;
 }
 
@@ -780,7 +806,7 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #000000!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -804,6 +830,8 @@ h4 {
     color: #c27956!important;
 }
 
+
+
 .icon-dark-slate-blue {
     color: #364577!important;
     border-color: #364577!important;
@@ -824,6 +852,10 @@ h4 {
 .bg-presentation {
     background-image: url("img/image-de-presentation.bmp");
 }
+
+
+
+
 
 @media (max-width: 1024px) {
     .bloc {
